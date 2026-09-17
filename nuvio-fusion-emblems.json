@@ -1,6 +1,13 @@
 {
   "groups": [
     {
+      "id": "servers-addons",
+      "name": "Servers / Addons",
+      "color": "#000000",
+      "borderColor": "#000000",
+      "isExpanded": true
+    },
+    {
       "id": "streaming-platforms",
       "name": "Streaming Platforms",
       "color": "#000000",
@@ -16,6 +23,19 @@
     }
   ],
   "filters": [
+    {
+      "id": "aiostreams",
+      "name": "AIOSTREAMS",
+      "groupId": "servers-addons",
+      "isEnabled": true,
+      "pattern": "(?i)\\baiostreams(?:[-_. ]?(?:nightly|midnight))?\\b",
+      "imageURL": "https://raw.githubusercontent.com/TrainAgain2/resource.images.studios.coloured/master/resources/AIOStreams.png",
+      "tagColor": "#00000000",
+      "borderColor": "#FFFFFF",
+      "textColor": "#FFFFFF",
+      "tagStyle": "bordered",
+      "type": "filter"
+    },
     {
       "id": "netflix",
       "name": "NETFLIX",
