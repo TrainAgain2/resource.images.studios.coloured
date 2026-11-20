@@ -6,7 +6,7 @@ The package is intended for Kodi skins and add-ons that display a company or stu
 
 ## Contents
 
-The `resources/` directory contains **7,434 PNG files**. The collection includes alternate names and regional variants where available. The root-level `studio-index.json` provides **7,091 normalized lookup entries** for client applications that need a stable key-to-filename mapping.
+The `resources/` directory contains **7,445 PNG files**. The collection includes alternate names and regional variants where available. The root-level `studio-index.json` provides **7,096 normalized lookup entries** for client applications that need a stable key-to-filename mapping.
 
 | Path | Purpose |
 |---|---|
@@ -26,7 +26,7 @@ The `resources/` directory contains **7,434 PNG files**. The collection includes
   "format": 1,
   "source": "Kodi resource.images.studios.coloured / Team Kodi",
   "license": "CC BY-SA 3.0 US",
-  "count": 7091,
+  "count": 7096,
   "studios": {
     "marvelstudios": "Marvel Studios.png"
   }
